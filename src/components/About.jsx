@@ -23,7 +23,7 @@ const About = () => {
                     <div>
                     <p>
                         I am a 14 year old ROBLOX developer that has been on ROBLOX for over 6 years, I am a hard-working and fast developer that can produce high quality models.
-                        I specialize in modeling and making weapons. I also have over 200 hours of experience in blender (<a className='text-blue-400 font-bold inline border-b-2 pt-3 hover:text-pink-600 duration-300' href="https://cdn.discordapp.com/attachments/810560991300419584/970007679751823390/unknown.png" target='_blank'>click here to see)</a>.
+                        I specialize in modeling and making weapons. I also have over 260 hours of experience in blender (<a className='text-blue-400 font-bold inline border-b-2 pt-3 hover:text-pink-600 duration-300' href="https://cdn.discordapp.com/attachments/810560991300419584/970007679751823390/unknown.png" target='_blank'>click here to see)</a>.
                     </p>
                     <p className='font-bold text-1.5xl sm:text-1xl'>
                     If you do decide to hire me, the only payment method I'm currently accepting

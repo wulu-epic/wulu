@@ -51,7 +51,7 @@ const Work = () => {
 
                     <div style={{ backgroundImage: `url(${Bisento})`, backgroundSize: "cover" , backgroundPositionY: "-150px"}} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://imgur.com/a/Mi8AIQd")} >
                             <p className='font-bold '>
-                                Bisento
+                               Whitebeard's Bisento
                             </p>
                     </div>
 

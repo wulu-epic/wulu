@@ -19,15 +19,15 @@ const Navbar = () => {
 
     {/* menu */}
         <ul className='hidden md:flex '>
-            <li>
+            <li className='hover:text-pink-600 duration-150'>
             <Link to="home" smooth={true} duration={1000}>
              Home
              </Link>
             </li>
-            <li><Link  to="about" smooth={true} duration={1000}>
+            <li className='hover:text-pink-600 duration-150'><Link  to="about" smooth={true} duration={1000}>
              About 
              </Link></li>
-            <li><Link to="work"  smooth={true} duration={1000}>
+            <li className='hover:text-pink-600 duration-150'><Link to="work"  smooth={true} duration={1000}>
              Work
              </Link></li>
         </ul>
