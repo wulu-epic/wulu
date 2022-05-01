@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/w/static/css/main.8b075095.css",
+    "main.js": "/w/static/js/main.569842b5.js",
+    "static/media/scripting.gif": "/w/static/media/scripting.9c5526422622748d962a.gif",
+    "static/media/particle.gif": "/w/static/media/particle.4ff3293d917889078c83.gif",
+    "static/media/katana.png": "/w/static/media/katana.a43b0440615b8ca8bffa.png",
+    "static/media/broken-sword.jpg": "/w/static/media/broken-sword.6f6c61b9b4eac2da85bc.jpg",
+    "static/media/great-sword.jpg": "/w/static/media/great-sword.65aa19e320058729d055.jpg",
+    "static/media/bisento.png": "/w/static/media/bisento.b45227ebdba71b067394.png",
+    "static/media/logo.png": "/w/static/media/logo.65b8fedf9b61d951b7af.png",
+    "index.html": "/w/index.html",
+    "main.8b075095.css.map": "/w/static/css/main.8b075095.css.map",
+    "main.569842b5.js.map": "/w/static/js/main.569842b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b075095.css",
+    "static/js/main.569842b5.js"
+  ]
+}
