@@ -12,8 +12,8 @@ const Work = () => {
         <div name='work' className='w-full h-[1600x] text-gray-200 bg-[#0a192f] '>
             <div style={{backgroundSize: "cover"}} className='max-w-[1000px] max-h-[500x]  mx-auto p-3 flex-col justify-center w-full h-full'>
                 <div>
-                    <div className='sm:text-left pb-2 pl-1 flex items-center justify-center'>
-                        <p className='text-4xl  font-bold inline border-b-4 border-pink-600 '>
+                    <div className='sm:text-left pb-2 pl-2 flex items-center justify-center'>
+                        <p className='text-4xl  font-bold inline border-b-4 pr-1 border-pink-600 '>
                             Work
                         </p>
                     </div>
