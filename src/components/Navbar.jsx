@@ -30,6 +30,10 @@ const Navbar = () => {
             <li className='hover:text-pink-600 duration-150 font-bold'><Link to="work"  smooth={true} duration={1000}>
              Work
              </Link></li>
+
+             <li className='hover:text-pink-600 duration-150 font-bold'><Link to="contact"  smooth={true} duration={1000}>
+             Contact
+             </Link></li>
         </ul>
 
         <div onClick={handleClick} className='md:hidden z-10'>
@@ -48,6 +52,9 @@ const Navbar = () => {
             <li  className='py-6 text-4xl'><Link onClick={handleClick} to="work" smooth={true} duration={500}>
              Work
              </Link></li>
+             <li  className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+             Contact
+             </Link></li>
         </ul>
         {/* socials */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
@@ -61,7 +68,6 @@ const Navbar = () => {
                 <li onClick={() => window.open("https://github.com/wulu-epic")} className='w-[135px] h-[60px] flex justify-between items-center ml-[-78px] hover:ml-[-10px] duration-300 bg-[#1e1e1e] rounded-md'>
                     <p className='flex justify-between items-center w-full text-gray-300' href="/" >
                         Github <FaGithub size={30}/>
-                        
                     </p>
                 </li>
 
@@ -70,7 +76,6 @@ const Navbar = () => {
                         Youtube<FaYoutube size={30}/>       
                     </p>
                 </li>
-
             </ul>
         </div>
     </div>

@@ -1,76 +1,115 @@
-import React from 'react'
+import React from 'react';
 
-import Bisento from '../assets/bisento.png'
-import particle from '../assets/particle.gif'
-import brokenSword from '../assets/broken-sword.jpg'
-import scripting from '../assets/scripting.gif'
-import greatSword from '../assets/great-sword.jpg'
-import katana from '../assets/katana.png'
+import Bisento from '../assets/bisento.png';
+import particle from '../assets/particle.gif';
+import brokenSword from '../assets/broken-sword.jpg';
+import scripting from '../assets/scripting.gif';
+import greatSword from '../assets/great-sword.jpg';
+import katana from '../assets/katana.png';
+import speedtrack from '../assets/speedtrack.png';
+import magicsim from '../assets/magicsim.png';
+import barrel from '../assets/barrel.png';
+import lightsaber from '../assets/lightsaber.jpg';
 
 const Work = () => {
-    return (
-        <div name='work' className='w-full h-[1600x] text-gray-200 bg-[#0a192f] '>
-            <div style={{backgroundSize: "cover"}} className='max-w-[1000px] max-h-[500x]  mx-auto p-3 flex-col justify-center w-full h-full'>
-                <div>
-                    <div className='sm:text-left pb-2 pl-2 flex items-center justify-center'>
-                        <p className='text-4xl  font-bold inline border-b-4 pr-1 border-pink-600 '>
-                            Work
-                        </p>
-                    </div>
-                    <div className='sm:text-left top-2 pl-1 flex items-center justify-center'>
-                        <p className='text-4xl  font-bold '>
-                        // Check out some of my creations!
-                        </p>
-                    </div>
-                </div>
-
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-[1000px] h-[350px] w-full  pb-11 pt-10 hover:scale-100'>
-                    <div style={{ backgroundImage: `url(${particle})`, backgroundSize: "cover"}} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://gyazo.com/6f83bf2a2ed6991ca31db2eb5dc6ef2d")} >
-                        <p className='font-bold'>
-                            Death Beam
-                        </p>
-                    </div>
-         
-                    <div style={{ backgroundImage: `url(${brokenSword})`, backgroundSize: "cover" , backgroundPositionY: "-600px" }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://gyazo.com/8f083193bdc3b26f3239cf79fbd5e25f")} >
-                            <p className='font-bold '>
-                               Broken Sword
-                            </p>
-                    </div>
-
-                    <div style={{ backgroundImage: `url(${greatSword})`, backgroundSize: "cover" }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://i.gyazo.com/thumb/1200/8db34a39ea3416b8393c5207c734f643-png.jpg")} >
-                            <p className='font-bold '>
-                                Great Sword
-                            </p>
-                    </div>
-
-                    <div style={{ backgroundImage: `url(${scripting})`, backgroundSize: "cover" }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://imgur.com/a/Mi8AIQd")} >
-                            <p className='font-bold '>
-                                Star Wars Jedi Fallen Order
-                            </p>
-                    </div>
-
-                    <div style={{ backgroundImage: `url(${Bisento})`, backgroundSize: "cover" , backgroundPositionY: "-150px"}} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://cdn.discordapp.com/attachments/924066432092868611/963423853902696538/unknown.png")} >
-                            <p className='font-bold '>
-                               Whitebeard's Bisento
-                            </p>
-                    </div>
-
-                    <div style={{ backgroundImage: `url(${katana})`, backgroundSize: "cover", backgroundPositionY: "-50px", scale:"30%" }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div hover:scale-90 duration-200  hover:cursor-pointer' onClick={() => window.open("https://gyazo.com/b0c9cd1d6b72cd46d616b6815d1d965a")} >
-                            <p className='font-bold '>
-                                Katana
-                            </p>
-                    </div>
-                    
-                </div>
-            <h2 onClick={() => window.open("https://discord.gg/uxDgVAJcSN")} className='flex flex-center justify-center text-4xl text-[#4ecad3] font-bold  border-pink-600 hover:text-purple-600 before:border-0 hover:border-3 duration-100 hover:border-b-2 duration-100 hover:cursor-pointer'>Click here for more of my creations!</h2>
-            <div className='pt-3'>
-                <h3 className='flex flex-center justify-center text-4xl sm:text-2xl '>Thanks for showing interest in my work!</h3>
-                <h4 className='flex flex-center justify-center text-3xl sm:text-2xl text-[#8d8dca] font-bold'>You can message me on discord</h4>
-                <h5 className='flex flex-center justify-center text-6xl sm:text-3xl text-pink-600 font-bold'>wulu#0827</h5>
-            </div>
-            </div>
+  return (
+    <div name='work' className='w-full h-[1600x] text-gray-200 bg-[#0a192f]'>
+      <div className='max-w-6xl mx-auto p-3'>
+        <div className='text-center pb-8'>
+          <h1 className='text-4xl font-bold inline-block border-b-4 border-pink-600'>
+            Work
+          </h1>
+          <p className='text-2xl font-bold'>
+            Check out some of my creations!
+          </p>
         </div>
-    )
-}
 
-export default Work
+        <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
+          <ImageCard
+            image={barrel}
+            onClick={() =>
+              window.open('https://media.discordapp.net/attachments/1190096731375927349/1190097617120661665/image.png?ex=65a9ca46&is=65975546&hm=cabfcf2f6a33fe5221f810a0928d6d00a581161da1010e64d9e3cee2ed67b1c4&=&format=webp&quality=lossless&width=576&height=675')
+            }
+            title='Stylized Barrel'
+          />
+          <ImageCard
+            image={brokenSword}
+            onClick={() =>
+              window.open('https://gyazo.com/8f083193bdc3b26f3239cf79fbd5e25f')
+            }
+            title='Broken Sword'
+          />
+          <ImageCard
+            image={greatSword}
+            onClick={() =>
+              window.open(
+                'https://i.gyazo.com/thumb/1200/8db34a39ea3416b8393c5207c734f643-png.jpg'
+              )
+            }
+            title='Great Sword'
+          />
+          <ImageCard
+            image={scripting}
+            onClick={() =>
+              window.open('https://imgur.com/a/Mi8AIQd')
+            }
+            title='Star Wars Jedi Fallen Order'
+          />
+          <ImageCard
+            image={Bisento}
+            onClick={() =>
+              window.open(
+                'https://cdn.discordapp.com/attachments/924066432092868611/963423853902696538/unknown.png'
+              )
+            }
+            title="Whitebeard's Bisento"
+          />
+          <ImageCard
+            image={katana}
+            onClick={() =>
+              window.open('https://gyazo.com/b0c9cd1d6b72cd46d616b6815d1d965a')
+            }
+            title='Katana'
+          />
+          <ImageCard
+            image={speedtrack}
+            onClick={() =>
+              window.open('https://www.roblox.com/games/15396372437/Speed-Track-Simulator-RELEASE?AssetId=15396372437')
+            }
+            title='Speed Track Simulator'
+          />
+
+            <ImageCard
+                    image={magicsim}
+                    onClick={() =>
+                    window.open('https://streamable.com/ew6ws3')
+                    }
+                    title='Magic Simulator'
+            />
+
+            <ImageCard
+                image={lightsaber}
+                onClick={() =>
+                window.open('https://cdn.discordapp.com/attachments/1190096731375927349/1190098302998417468/94091058f863efd8738b8c045f8ed6b7-png.webp?ex=65a9caea&is=659755ea&hm=03008a9edae2a57f9cee1995d8ce91d3977e3138cdf40c0044fa7d60043764c5&')
+                }
+                title='Light Saber'
+            />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const ImageCard = ({ image, onClick, title }) => {
+    return (
+      <div
+        style={{ backgroundImage: `url(${image})`, backgroundSize: 'cover', height: '150px' }}
+        className='shadow-lg group container rounded-md flex justify-center items-center content-div hover:scale-90 duration-200 cursor-pointer'
+        onClick={onClick}
+      >
+        <p className='font-bold'>{title}</p>
+      </div>
+    );
+  };
+
+export default Work;

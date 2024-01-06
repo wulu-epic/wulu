@@ -16,3 +16,15 @@
         @apply cursor-pointer;
     } 
 }
+
+.cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(198, 0, 253); 
+    pointer-events: none;
+    z-index: 9999;
+    transition: all 0.02s ease-in-out ;
+    filter: blur(1.5rem);
+  }
