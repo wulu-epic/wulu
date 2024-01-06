@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wulu/static/css/main.4434bc95.css",
-    "main.js": "/wulu/static/js/main.ebd4a97a.js",
+    "main.css": "/wulu/static/css/main.7272b4b8.css",
+    "main.js": "/wulu/static/js/main.668c69d7.js",
     "static/media/scripting.gif": "/wulu/static/media/scripting.9c5526422622748d962a.gif",
     "static/media/particle.gif": "/wulu/static/media/particle.4ff3293d917889078c83.gif",
     "static/media/speedtrack.png": "/wulu/static/media/speedtrack.37f38da7dcfd4b38d530.png",
@@ -14,11 +14,11 @@
     "static/media/bisento.png": "/wulu/static/media/bisento.b45227ebdba71b067394.png",
     "static/media/logo.png": "/wulu/static/media/logo.65b8fedf9b61d951b7af.png",
     "index.html": "/wulu/index.html",
-    "main.4434bc95.css.map": "/wulu/static/css/main.4434bc95.css.map",
-    "main.ebd4a97a.js.map": "/wulu/static/js/main.ebd4a97a.js.map"
+    "main.7272b4b8.css.map": "/wulu/static/css/main.7272b4b8.css.map",
+    "main.668c69d7.js.map": "/wulu/static/js/main.668c69d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4434bc95.css",
-    "static/js/main.ebd4a97a.js"
+    "static/css/main.7272b4b8.css",
+    "static/js/main.668c69d7.js"
   ]
 }
