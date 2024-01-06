@@ -27,7 +27,7 @@ const Contact = () => {
                     </div>
 
                     <div className='sm:text-right text-4xl font-bold'>
-                    <p onClick={() => window.open("https://discord.gg/uxDgVAJcSN")} className='text-4xl text-center text-[#4ecad3] font-bold  border-pink-600 hover:text-purple-600 before:border-0 hover:border-3 duration-100 hover:border-b-2 duration-100 hover:cursor-pointer'>Click here for more of my creations!</p>                    </div>
+                    <p onClick={() => window.open("https://discord.gg/9FJXERpZjS")} className='text-4xl text-center text-[#4ecad3] font-bold  border-pink-600 hover:text-purple-600 before:border-0 hover:border-3 duration-100 hover:border-b-2 duration-100 hover:cursor-pointer'>Click here for more of my creations!</p>                    </div>
                </div>
             </div>
         </div>

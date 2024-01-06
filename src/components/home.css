@@ -1,0 +1,65 @@
+.parallax-container {
+  perspective: 100px;
+  display: list-item;
+  height: 45px;
+  list-style: none;
+  position: relative;
+}
+
+.names {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-out, opacity 0.3s ease;
+  transform: translateZ(0);
+  font-size: 3rem;
+}
+
+.names:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.parallax-container .names {
+  color:white;
+}
+
+.parallax-container:hover .names:nth-child(1) {
+  transform: translateZ(-5px);
+}
+
+.parallax-container:hover .names:nth-child(2) {
+  transform: translateZ(-20px);
+  filter:blur(.1rem);
+
+
+}
+
+.parallax-container:hover .names:nth-child(3) {
+  transform: translateZ(-40px);
+  filter:blur(.2rem);
+
+}
+
+.parallax-container:hover .names:nth-child(4) {
+  transform: translateZ(-60px);
+  filter:blur(.3rem);
+
+}
+
+h2 {
+  margin-top: 0;
+}
+
+h2 ~ h2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.parallax-container:hover h2 ~ h2 {
+  opacity: 1;
+  top: calc(100% + 10px);
+}

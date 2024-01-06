@@ -13,7 +13,7 @@ import lightsaber from '../assets/lightsaber.jpg';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full h-[1600x] text-gray-200 bg-[#0a192f]'>
+    <div name='work' className='w-full h-[800x] text-gray-200 bg-[#0a192f]'>
       <div className='max-w-6xl mx-auto p-3'>
         <div className='text-center pb-8'>
           <h1 className='text-4xl font-bold inline-block border-b-4 border-pink-600'>

@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* socials */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li onClick={() => window.open("https://discord.gg/8RsyJUP9cv")} className='w-[135px] h-[60px] flex justify-between items-center ml-[-78px] hover:ml-[-10px] duration-300 bg-blue-500 rounded-md'>
+                <li onClick={() => window.open("https://discord.gg/9FJXERpZjS")} className='w-[135px] h-[60px] flex justify-between items-center ml-[-78px] hover:ml-[-10px] duration-300 bg-blue-500 rounded-md'>
                     <p className='flex justify-between items-center w-full text-gray-300' href="/">
                         Discord <FaDiscord size={30}/>
                     </p>
