@@ -10,6 +10,7 @@ import speedtrack from '../assets/speedtrack.png';
 import magicsim from '../assets/magicsim.png';
 import barrel from '../assets/barrel.png';
 import lightsaber from '../assets/lightsaber.jpg';
+import chest from '../assets/chest.png';
 
 const Work = () => {
   return (
@@ -26,11 +27,11 @@ const Work = () => {
 
         <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
           <ImageCard
-            image={barrel}
+            image={chest}
             onClick={() =>
-              window.open('https://media.discordapp.net/attachments/1190096731375927349/1190097617120661665/image.png?ex=65a9ca46&is=65975546&hm=cabfcf2f6a33fe5221f810a0928d6d00a581161da1010e64d9e3cee2ed67b1c4&=&format=webp&quality=lossless&width=576&height=675')
+              window.open('https://cdn.discordapp.com/attachments/1167784603537395743/1193364315269496882/image.png?ex=65ac7220&is=6599fd20&hm=be6cea4b7f72ec384f92dee4046bffd044ff5d87c8ca5064c2cddf3dc1a45870&')
             }
-            title='Stylized Barrel'
+            title='Stylized Chest'
           />
           <ImageCard
             image={brokenSword}
