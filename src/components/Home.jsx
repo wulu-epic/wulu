@@ -23,7 +23,7 @@ const Home = () => {
             onClick={() => scroll.scrollToBottom()}
             className='text-white group border-2 px-6 py-3 my-3 flex items-center hover:bg-pink-600 duration-150 hover:border-pink-600 duration-150 hover:px-9 duration-30 '
           >
-            View Work
+            Contact Me
             <span className='group-hover:rotate-90 duration-300 '>
               <HiArrowNarrowRight className='ml-3.5' />
             </span>

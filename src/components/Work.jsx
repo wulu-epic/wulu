@@ -11,6 +11,7 @@ import magicsim from '../assets/magicsim.png';
 import barrel from '../assets/barrel.png';
 import lightsaber from '../assets/lightsaber.jpg';
 import chest from '../assets/chest.png';
+import lightfruit from '../assets/light_fruit.png';
 
 const Work = () => {
   return (
@@ -95,6 +96,14 @@ const Work = () => {
                 }
                 title='Light Saber'
             />
+
+            <ImageCard
+                image={lightfruit}
+                onClick={() =>
+                window.open('https://www.roblox.com/games/15986364659/Testing-Place')
+                }
+                title='Light Fruit'
+              />
         </div>
       </div>
     </div>
