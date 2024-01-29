@@ -30,7 +30,7 @@ const Work = () => {
             image={chest}
             onClick={() =>
               window.open(
-                "https://cdn.discordapp.com/attachments/1167784603537395743/1193364315269496882/image.png?ex=65ac7220&is=6599fd20&hm=be6cea4b7f72ec384f92dee4046bffd044ff5d87c8ca5064c2cddf3dc1a45870&"
+                "https://media.discordapp.net/attachments/1190096731375927349/1201335844292796456/image.png?ex=65c97231&is=65b6fd31&hm=cd1923677f57c2324a3a99498f868906c96b17337db6037104ef0cfb9143b0e0&=&format=webp&quality=lossless&width=984&height=675"
               )
             }
             title="Stylized Chest"
