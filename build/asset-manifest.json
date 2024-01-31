@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wulu/static/css/main.7272b4b8.css",
-    "main.js": "/wulu/static/js/main.8c4cbee7.js",
+    "main.js": "/wulu/static/js/main.9d2d44ba.js",
     "static/media/scripting.gif": "/wulu/static/media/scripting.9c5526422622748d962a.gif",
     "static/media/particle.gif": "/wulu/static/media/particle.4ff3293d917889078c83.gif",
     "static/media/light_fruit.png": "/wulu/static/media/light_fruit.499bc3660b0f025a0e65.png",
@@ -13,15 +13,15 @@
     "static/media/katana.png": "/wulu/static/media/katana.a43b0440615b8ca8bffa.png",
     "static/media/lightsaber.jpg": "/wulu/static/media/lightsaber.06889faaa2429a4c3a2c.jpg",
     "static/media/broken-sword.jpg": "/wulu/static/media/broken-sword.6f6c61b9b4eac2da85bc.jpg",
-    "static/media/great-sword.jpg": "/wulu/static/media/great-sword.65aa19e320058729d055.jpg",
     "static/media/bisento.png": "/wulu/static/media/bisento.b45227ebdba71b067394.png",
+    "static/media/stylized_sword.jpg": "/wulu/static/media/stylized_sword.782578228c2edcd59dd1.jpg",
     "static/media/logo.png": "/wulu/static/media/logo.65b8fedf9b61d951b7af.png",
     "index.html": "/wulu/index.html",
     "main.7272b4b8.css.map": "/wulu/static/css/main.7272b4b8.css.map",
-    "main.8c4cbee7.js.map": "/wulu/static/js/main.8c4cbee7.js.map"
+    "main.9d2d44ba.js.map": "/wulu/static/js/main.9d2d44ba.js.map"
   },
   "entrypoints": [
     "static/css/main.7272b4b8.css",
-    "static/js/main.8c4cbee7.js"
+    "static/js/main.9d2d44ba.js"
   ]
 }

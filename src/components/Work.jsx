@@ -4,7 +4,7 @@ import Bisento from "../assets/bisento.png";
 import particle from "../assets/particle.gif";
 import brokenSword from "../assets/broken-sword.jpg";
 import scripting from "../assets/scripting.gif";
-import greatSword from "../assets/great-sword.jpg";
+import stylizedSword from "../assets/stylized_sword.jpg";
 import katana from "../assets/katana.png";
 import speedtrack from "../assets/speedtrack.png";
 import magicsim from "../assets/magicsim.png";
@@ -43,13 +43,15 @@ const Work = () => {
             title="Broken Sword"
           />
           <ImageCard
-            image={greatSword}
+            image={stylizedSword}
             onClick={() =>
               window.open(
-                "https://i.gyazo.com/thumb/1200/8db34a39ea3416b8393c5207c734f643-png.jpg"
+                "https://cdn.discordapp.com/attachments/1190096731375927349/1202040345551196160/image.png?ex=65cc024f&is=65b98d4f&hm=a4bc782fdf2a62f4c028e08fbf9110fb91c218bf59e53ea8bec84b7bf156b2e7&"
               )
             }
-            title="Great Sword"
+            title="Stylized Sword"
+            zoom={22}
+            offset={-175}
           />
           <ImageCard
             image={scripting}
