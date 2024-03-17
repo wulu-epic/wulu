@@ -4,21 +4,17 @@ import Navbar from './components/Navbar';
 import Work from './components/Work'
 import Contact from './components/Contact'
 
-
-
 function App() {
   return (
     
     <div>
-      <Navbar/>
+     <Navbar/>
      <Home/>
      <About/>
      <Work/>
      <Contact/>
     </div>
-  
-    
-    
+   
   );
 }
 
