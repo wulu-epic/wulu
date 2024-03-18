@@ -160,4 +160,5 @@ const ImageCard = ({ image, onClick, title, offset = 0, zoom = 100 }) => {
     </div>
   );
 };
+
 export default Work;
