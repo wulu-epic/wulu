@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/wulu/static/css/main.dbb2bfd9.css",
-    "main.js": "/wulu/static/js/main.9d2d44ba.js",
+    "main.css": "/wulu/static/css/main.ba0de927.css",
+    "main.js": "/wulu/static/js/main.aa01b100.js",
     "static/media/scripting.gif": "/wulu/static/media/scripting.9c5526422622748d962a.gif",
     "static/media/particle.gif": "/wulu/static/media/particle.4ff3293d917889078c83.gif",
     "static/media/light_fruit.png": "/wulu/static/media/light_fruit.499bc3660b0f025a0e65.png",
+    "static/media/mount-sys.gif": "/wulu/static/media/mount-sys.951ff5754121b3248fc0.gif",
     "static/media/chest.png": "/wulu/static/media/chest.91d093ac094024e00c43.png",
     "static/media/stylized_tree.png": "/wulu/static/media/stylized_tree.96dbea828818fe6f93b6.png",
     "static/media/speedtrack.png": "/wulu/static/media/speedtrack.37f38da7dcfd4b38d530.png",
@@ -17,11 +18,11 @@
     "static/media/stylized_sword.jpg": "/wulu/static/media/stylized_sword.782578228c2edcd59dd1.jpg",
     "static/media/logo.png": "/wulu/static/media/logo.65b8fedf9b61d951b7af.png",
     "index.html": "/wulu/index.html",
-    "main.dbb2bfd9.css.map": "/wulu/static/css/main.dbb2bfd9.css.map",
-    "main.9d2d44ba.js.map": "/wulu/static/js/main.9d2d44ba.js.map"
+    "main.ba0de927.css.map": "/wulu/static/css/main.ba0de927.css.map",
+    "main.aa01b100.js.map": "/wulu/static/js/main.aa01b100.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbb2bfd9.css",
-    "static/js/main.9d2d44ba.js"
+    "static/css/main.ba0de927.css",
+    "static/js/main.aa01b100.js"
   ]
 }
