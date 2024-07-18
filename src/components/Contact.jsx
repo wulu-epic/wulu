@@ -21,9 +21,7 @@ const Contact = () => {
                     <p className='font-bold text-1.5xl sm:text-1xl'>
                     Hi! Thanks for showing interest in my work! You can contact me on Discord by either directly joining the server to the right, or by direct messaging <span className="text-pink-600">.wuluu</span>.
                     </p>
-                    <p className='font-bold text-1.5xl sm:text-1xl'>
-                    Also for my work section, regarding <span className="text-blue-600">Magic Simulator</span> and <span className="text-blue-600">Speed Track Simulator</span> please message me for extra details for my contribtions towards them. Thank you
-                    </p>
+
                     </div>
 
                     <div className='sm:text-right text-4xl font-bold'>

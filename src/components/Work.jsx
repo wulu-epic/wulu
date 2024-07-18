@@ -2,6 +2,7 @@ import React from "react";
 
 import Bisento from "../assets/bisento.png";
 import particle from "../assets/particle.gif";
+import mountsystem from "../assets/mount-sys.gif";
 import brokenSword from "../assets/broken-sword.jpg";
 import scripting from "../assets/scripting.gif";
 import stylizedSword from "../assets/stylized_sword.jpg";
@@ -27,21 +28,40 @@ const Work = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <ImageCard
-            image={chest}
+            image={mountsystem}
             onClick={() =>
               window.open(
-                "https://media.discordapp.net/attachments/1190096731375927349/1201335844292796456/image.png?ex=65c97231&is=65b6fd31&hm=cd1923677f57c2324a3a99498f868906c96b17337db6037104ef0cfb9143b0e0&=&format=webp&quality=lossless&width=984&height=675"
+                "https://imgur.com/a/3xtK2pv"
               )
             }
-            title="Stylized Chest"
+            title="Mount System"
+          />
+            <ImageCard
+              image={speedtrack}
+              onClick={() =>
+                window.open(
+                  "https://www.roblox.com/games/15396372437/Speed-Track-Simulator-RELEASE?AssetId=15396372437"
+                )
+              }
+              title="Speed Track Simulator"
+            />
+
+            
+          <ImageCard
+            image={lightfruit}
+            onClick={() =>
+              window.open(
+                "https://www.roblox.com/games/15986364659/Testing-Place"
+              )
+            }
+            title="Light Fruit"
           />
           <ImageCard
-            image={brokenSword}
-            onClick={() =>
-              window.open("https://gyazo.com/8f083193bdc3b26f3239cf79fbd5e25f")
-            }
-            title="Broken Sword"
+            image={scripting}
+            onClick={() => window.open("https://imgur.com/a/Mi8AIQd")}
+            title="Star Wars Jedi Fallen Order"
           />
+
           <ImageCard
             image={stylizedSword}
             onClick={() =>
@@ -53,11 +73,7 @@ const Work = () => {
             zoom={22}
             offset={-175}
           />
-          <ImageCard
-            image={scripting}
-            onClick={() => window.open("https://imgur.com/a/Mi8AIQd")}
-            title="Star Wars Jedi Fallen Order"
-          />
+
           <ImageCard
             image={Bisento}
             onClick={() =>
@@ -69,30 +85,28 @@ const Work = () => {
             offset={-192}
             zoom={14}
           />
+
+          
+        <ImageCard
+          image={magicsim}
+          onClick={() => window.open("https://streamable.com/ew6ws3")}
+          title="Magic Simulator"
+          offset={-100}
+          zoom={100}
+        />
           <ImageCard
-            image={katana}
-            onClick={() =>
-              window.open("https://gyazo.com/b0c9cd1d6b72cd46d616b6815d1d965a")
-            }
-            title="Katana"
-          />
-          <ImageCard
-            image={speedtrack}
+            image={sylized_tree}
             onClick={() =>
               window.open(
-                "https://www.roblox.com/games/15396372437/Speed-Track-Simulator-RELEASE?AssetId=15396372437"
+                "https://media.discordapp.net/attachments/1190096731375927349/1201336692871807016/image.png?ex=65c972fb&is=65b6fdfb&hm=d6ab904e9b6576d267619aa806be7cc04eb18d97c65b7673db5737e5b43bf5d6&=&format=webp&quality=lossless&width=744&height=675"
               )
             }
-            title="Speed Track Simulator"
+            title="Stylized Tree"
+            offset={-65}
+            zoom={75}
           />
+          
 
-          <ImageCard
-            image={magicsim}
-            onClick={() => window.open("https://streamable.com/ew6ws3")}
-            title="Magic Simulator"
-            offset={-100}
-            zoom={100}
-          />
 
           <ImageCard
             image={lightsaber}
@@ -106,15 +120,6 @@ const Work = () => {
             zoom={100}
           />
 
-          <ImageCard
-            image={lightfruit}
-            onClick={() =>
-              window.open(
-                "https://www.roblox.com/games/15986364659/Testing-Place"
-              )
-            }
-            title="Light Fruit"
-          />
 
           <ImageCard
             image={barrel}
@@ -127,17 +132,25 @@ const Work = () => {
             offset={-75}
             zoom={65}
           />
-          <ImageCard
-            image={sylized_tree}
-            onClick={() =>
-              window.open(
-                "https://media.discordapp.net/attachments/1190096731375927349/1201336692871807016/image.png?ex=65c972fb&is=65b6fdfb&hm=d6ab904e9b6576d267619aa806be7cc04eb18d97c65b7673db5737e5b43bf5d6&=&format=webp&quality=lossless&width=744&height=675"
-              )
-            }
-            title="Stylized Tree"
-            offset={-65}
-            zoom={75}
-          />
+          
+            <ImageCard
+              image={katana}
+              onClick={() =>
+                window.open("https://gyazo.com/b0c9cd1d6b72cd46d616b6815d1d965a")
+              }
+              title="Katana"
+              zoom={11}
+              offset={-180}
+            />
+              <ImageCard
+                image={brokenSword}
+                onClick={() =>
+                  window.open("https://gyazo.com/8f083193bdc3b26f3239cf79fbd5e25f")
+                }
+                title="Broken Sword"
+                zoom={11}
+                offset={-260}
+              />
         </div>
       </div>
     </div>

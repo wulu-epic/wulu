@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
         <h2 className='text-1xl sm:text-2xl font-bold text-[#8192d5]'>A ROBLOX developer,</h2>
-        <h3 className='text-1xl sm:text-4xl font-bold text-[#adb4d0]'>A 3D Modeler, Programmer and a VFX Designer</h3>
+        <h3 className='text-1xl sm:text-4xl font-bold text-[#adb4d0]'>A Programmer, 3D Modeler, and a VFX Designer</h3>
 
         <div>
           <button
